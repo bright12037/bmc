@@ -1,6 +1,8 @@
 import Image from 'next/image'
 import React from 'react'
 import bg from '../media/bgimg.webp'
+import pilot1 from '../media/DALL·E 2024-12-25 19.15.00 - A single commercial airline pilot in a professional modern navy-blue uniform with gold stripes, standing confidently with a neutral background. The pi.webp'
+import pilot2 from '../media/DALL·E 2024-12-25 19.15.58 - Four commercial airline pilots in professional uniforms arranged in a single image, each representing diverse styles and airlines. The first pilot wea.webp'
 import bg2 from '../media/IMG-20231104-WA0142-300x420.jpg'
 import icon1 from '../media/megamog_box_01-1.png'
 import icon2 from '../media/megamog_box_02-1.png'
@@ -12,7 +14,7 @@ const Top = () => {
   return (
     <div className='top'>
       <div className='topimg relative'>
-        <Image src={bg} />
+        <Image src={pilot2} />
         <div className='absolute  text-white bottom-24 left-16'>
           <p className='text-xl  font-bold pb-2 '>Pilot collections</p>
           <p className='text-3xl font-bold pb-2 '>New Exquisite</p>
@@ -22,33 +24,41 @@ const Top = () => {
 
       <div className='second'>
         <div className='card '>
-          <Image src={bg} />
+          <Image src={pilot1} />
           <div className='text-gray-700'>
             <p className='text-sm  font-bold pb-2 text-center'>Bmc X Frank Pilot collections</p>
           </div>
         </div>
         <div className='card '>
-          <Image src={bg} />
+          <Image src={pilot1} />
           <div className='text-gray-700'>
             <p className='text-sm  font-bold pb-2 text-center'>Bmc X Frank Pilot collections</p>
           </div>
         </div>
         <div className='card '>
-          <Image src={bg} />
+          <Image src={pilot1} />
           <div className='text-gray-700'>
             <p className='text-sm  font-bold pb-2 text-center'>Bmc X Frank Pilot collections</p>
           </div>
         </div>
         <div className='card '>
-          <Image src={bg} />
+          <Image src={pilot1} />
           <div className='text-gray-700'>
             <p className='text-sm  font-bold pb-2 text-center'>Bmc X Frank Pilot collections</p>
           </div>
         </div>
       </div>
 
-    <div className='third py-2 px-2 '>
-      <div className='hover:transform relative hover:scale-4 pb-2'>
+    <div className='third mx-2 flex flex-col justify-center items-center'>
+      <div className='pb-2 relative transform transition hover:scale-125  ease-in-out'>
+        <Image className='' src={bg2}/>
+        <div className='absolute top-8 left-4 text-white pb-4'>
+        <h1 className='font-bold text-3xl'>Classic Vibes</h1>
+        <p className='text-xl'>New Collections</p>
+        </div>
+        
+      </div>
+      <div className='pb-2 relative'>
         <Image src={bg2}/>
         <div className='absolute top-8 left-4 text-white pb-4'>
         <h1 className='font-bold text-3xl'>Classic Vibes</h1>
@@ -56,15 +66,7 @@ const Top = () => {
         </div>
         
       </div>
-      <div className='hover:transform relative hover:scale-4 pb-2'>
-        <Image src={bg2}/>
-        <div className='absolute top-8 left-4 text-white pb-4'>
-        <h1 className='font-bold text-3xl'>Classic Vibes</h1>
-        <p className='text-xl'>New Collections</p>
-        </div>
-        
-      </div>
-      <div className='hover:transform relative hover:scale-4 pb-2'>
+      <div className='pb-2 relative'>
         <Image src={bg2}/>
         <div className='absolute top-8 left-4 text-white pb-4'>
         <h1 className='font-bold text-3xl'>Classic Vibes</h1>
@@ -107,21 +109,21 @@ const Top = () => {
       </div>
     </div>
 
-    <div className='p-4 last flex items-center gap-2'>
-      <div className=''>
-        <Image className='ml-4 mb-6 ' src={icon1}/>
+    <div className='p-4  flex items-center gap-2'>
+      <div className='flex flex-col items-center '>
+        <Image className='mb-6 ' src={icon1}/>
         <p className='mx-auto line-2 text-md font-semibold text-center'>Flexible Shipping</p>
       </div>
-      <div className=' '>
-        <Image className='ml-4 mb-6 ' src={icon2}/>
+      <div className='flex flex-col items-center '>
+        <Image className='mb-6 ' src={icon2}/>
         <p className='mx-auto line-2 text-center text-md font-semibold'>Exquisite Cut</p>
       </div>
-      <div className=' '>
-        <Image className='ml-4 mb-6' src={icon3}/>
+      <div className=' flex flex-col items-center'>
+        <Image className='mb-6' src={icon3}/>
         <p className='mx-auto line-2 text-md font-semibold text-center'>Onlines Support</p>
       </div>
-      <div className=' '>
-        <Image className='ml-4 mb-6' src={icon4}/>
+      <div className=' flex flex-col items-center'>
+        <Image className='mb-6' src={icon4}/>
         <p className='mx-auto line-2 text-md font-semibold text-center'>Secure Payment</p>
       </div>
 
