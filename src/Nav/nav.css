@@ -1,0 +1,109 @@
+
+  /* =========small screen=================== */
+  @media (max-width: 575.98px) { 
+    .mainnav{
+        display: none;
+    }
+    .mainnav2 {
+        background-color: rgb(45, 45, 45);
+        display: flex;
+        align-items: center;
+        position: fixed;
+        z-index: 10;
+        padding: 5px 2%;
+        width: 100%;
+        Font-weight: 500;
+        color: rgb(255, 255, 255);
+        font-family: futura-pt, sans-serif;
+    }
+    .menu{
+        display: none;
+    }
+    #nmenu{
+        Font-size: 23px;
+    }
+    .mainnav p:hover{
+        cursor: pointer;
+        transition: ease-out;
+        transform: scale(1.1);
+      }
+      
+    
+    #logo{
+        font-size: 20px;
+        Font-weight: 700;
+        color: rgb(255, 255, 255);
+        margin-right: 30px;
+    }
+    
+    .rightnav{
+        margin-left: auto;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
+    .rightnav p{
+        font-size: 16px;
+    }
+    #contatc{
+        display: flex;
+        align-items: center;
+        gap: 4px;
+    }
+    
+  }
+
+  /* tablets devices (tablets, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+   
+  }
+
+  /* laptop devices (desktops, 768px and up) */
+@media (min-width: 768px) and (max-width: 1440px) {
+    .mainnav2{
+        display: none;
+    }
+    .mainnav {
+        background-color: rgb(45, 45, 45);
+        display: flex;
+        padding: 10px 2%;
+        Font-size: 18px;
+        Font-weight: 400;
+        color: rgb(255, 255, 255);
+        font-family: futura-pt, sans-serif;
+    }
+    
+    .mainnav p:hover{
+        cursor: pointer;
+        transition: ease-out;
+        transform: scale(1.1);
+      }
+      
+    
+    #logo{
+        Font-size: 25px;
+        Font-weight: 900;
+        color: rgb(255, 255, 255);
+        margin-right: 30px;
+    }
+    
+    .leftnav{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+    
+    .rightnav{
+        margin-left: auto;
+        display: flex;
+        align-items: center;
+        gap: 25px;
+    }
+    #contatc{
+        display: flex;
+        align-items: center;
+        gap: 4px;
+    }
+    
+
+}
