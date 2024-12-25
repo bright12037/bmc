@@ -118,7 +118,7 @@ const Top = () => {
       </div>
       <div className=' '>
         <Image className='ml-4 mb-6' src={icon3}/>
-        <p className='mx-auto line-2 text-md font-semibold text-center'>Online Support</p>
+        <p className='mx-auto line-2 text-md font-semibold text-center'>Onlines Support</p>
       </div>
       <div className=' '>
         <Image className='ml-4 mb-6' src={icon4}/>
