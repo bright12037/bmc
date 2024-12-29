@@ -122,8 +122,13 @@ const Top = () => {
         </div>
       </div>
 
-      <div>
+      <div className='flex flex-col text-white font-bold gap-2 '>
         <Link href="https://wa.me/2348108177570" target="_blank" rel="noopener noreferrer"><button className='bg-green-700 p-2'>Contact on whatsapp</button></Link>
+        <Link href="tel:2348108177570" target="_blank" rel="noopener noreferrer"><button className='bg-green-700 p-2'>Give us a call</button></Link>
+        <Link href="sms:2348108177570" target="_blank" rel="noopener noreferrer"><button className='bg-green-700 p-2'>Send an SMS</button></Link>
+        <Link href="mailto:brightolisa@gmail.com" target="_blank" rel="noopener noreferrer"><button className='bg-green-700 p-2'>Contact by email</button></Link>
+        
+        
       </div>
     </div>
 {/* ========================================================================================================== */}
