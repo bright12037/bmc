@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
+import Link from 'next/link'
 import bg from '../media/bgimg.webp'
 import pilot1 from '../media/DALL·E 2024-12-25 19.15.00 - A single commercial airline pilot in a professional modern navy-blue uniform with gold stripes, standing confidently with a neutral background. The pi.webp'
 import pilot2 from '../media/DALL·E 2024-12-25 19.15.58 - Four commercial airline pilots in professional uniforms arranged in a single image, each representing diverse styles and airlines. The first pilot wea.webp'
@@ -119,6 +120,10 @@ const Top = () => {
             <p className='text-sm  font-bold pb-2 text-center'>Bmc X Frank Pilot collections</p>
           </div>
         </div>
+      </div>
+
+      <div>
+        <Link href="https://wa.me/2348108177570" target="_blank" rel="noopener noreferrer"><button className='bg-green-700 p-2'>Contact on whatsapp</button></Link>
       </div>
     </div>
 {/* ========================================================================================================== */}
