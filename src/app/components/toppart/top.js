@@ -127,6 +127,7 @@ const Top = () => {
         <Link href="tel:2348108177570" target="_blank" rel="noopener noreferrer"><button className='bg-green-700 p-2'>Give us a call</button></Link>
         <Link href="sms:2348108177570" target="_blank" rel="noopener noreferrer"><button className='bg-green-700 p-2'>Send an SMS</button></Link>
         <Link href="mailto:brightolisa@gmail.com" target="_blank" rel="noopener noreferrer"><button className='bg-green-700 p-2'>Contact by email</button></Link>
+        <Link href="https://wa.me/2348108177570?text:Welcome%21%20How%20may%20i%20halep%20you%3F%0ATo%20begin%20you%20can%20email%20me%20with%20the%20dress%20code%20and%20size.%20Thank%20you%21" target="_blank" rel="noopener noreferrer"><button className='bg-green-700 p-2'>Contact on whatsapp</button></Link>
         
         
       </div>
